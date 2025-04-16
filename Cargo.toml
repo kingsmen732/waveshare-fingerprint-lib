@@ -1,6 +1,6 @@
 [package]
 name = "waveshare-fingerprint-lib"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Mithilesh mitumithilesh@gmail.com"]
 description = "A Rust library for controlling Waveshare fingerprint sensors over serial communication"
