@@ -45,7 +45,7 @@ use std::time::Duration;
 
 fn main() {
     let port_name = "/dev/ttyUSB0"; // Replace with your serial port
-    let mut port = serialport::new(port_name, 19200)
+    let mut port = serialport::new(port_name, 57600)
         .timeout(Duration::from_secs(2))
         .open()
         .expect("Failed to open serial port");
