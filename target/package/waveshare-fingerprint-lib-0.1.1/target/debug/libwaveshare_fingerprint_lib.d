@@ -1,0 +1,1 @@
+/home/darkside/key/waveshare-fingerprint-lib/target/package/waveshare-fingerprint-lib-0.1.1/target/debug/libwaveshare_fingerprint_lib.rlib: /home/darkside/key/waveshare-fingerprint-lib/target/package/waveshare-fingerprint-lib-0.1.1/src/lib.rs
