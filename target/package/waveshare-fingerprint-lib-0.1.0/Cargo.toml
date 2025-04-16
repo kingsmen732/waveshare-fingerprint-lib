@@ -13,13 +13,37 @@
 edition = "2021"
 name = "waveshare-fingerprint-lib"
 version = "0.1.0"
+authors = ["Mithilesh mitumithilesh@gmail.com"]
 build = false
+exclude = [
+    "src/test.rs",
+    "*.jpg",
+    "*.png",
+    "*.mp4",
+    "examples/",
+    "assets/",
+    "target/",
+]
 autolib = false
 autobins = false
 autoexamples = false
 autotests = false
 autobenches = false
+description = "A Rust library for controlling Waveshare fingerprint sensors over serial communication"
+documentation = "https://docs.rs/kingsmen732-waveshare_fingerprint_lib"
 readme = "README.md"
+keywords = [
+    "fingerprint",
+    "sensor",
+    "serial",
+    "biometrics",
+]
+categories = [
+    "hardware-support",
+    "api-bindings",
+]
+license = "MIT"
+repository = "https://github.com/kingsmen732/waveshare_fingerprint_lib"
 
 [lib]
 name = "waveshare_fingerprint_lib"
